@@ -1,0 +1,10 @@
+{
+    "description": "Sexo do falecido. “Ignorado” selecionada em casos especiais como cadáveres mutilados, em estado avançado de decomposição, genitália indefinida ou hermafroditismo",
+    "1": "Masculino",
+    "M": "Masculino",
+    "2": "Feminino",
+    "F": "Feminino",
+    "9": "Ignorado",
+    "0": "Ignorado",
+    "I": "Ignorado"
+}

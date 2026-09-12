@@ -1,0 +1,6 @@
+{
+    "description": "Informa se a investigação permitiu o resgate de alguma causa de óbito não informado, ou a correção de alguma antes informada",
+    "01": "Não acrescentou nem corrigiu informação",
+    "02": "Sim, permitiu o resgate de novas informações",
+    "03": "Sim, permitiu a correção de alguma das causas informadas originalmente"
+}
