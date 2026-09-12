@@ -15,8 +15,11 @@ setup:
 	@python3 -m venv .venv
 	@$(PIP) install --upgrade pip
 	@$(PIP) install -r requirements.txt
+	@mkdir ./data ./output
+	@echo "Now, download the Dataset and put inside the ./output dir!"
 
 install:
+	@echo "Installing packages ;D"
 	@$(PIP) install -r requirements.txt
 
 freeze:
