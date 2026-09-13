@@ -1,0 +1,10 @@
+{
+    "description": "Escolaridade 2010. Nível da última série concluída pelo falecido",
+    "0": "Sem escolaridade",
+    "1": "Fundamental I (1a a 4a série)",
+    "2": "Fundamental II (5a a 8a série)",
+    "3": "Médio (antigo 2o Grau)",
+    "4": "Superior incompleto",
+    "5": "Superior completo",
+    "9": "Ignorado"
+}

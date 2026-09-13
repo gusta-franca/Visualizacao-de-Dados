@@ -1,0 +1,5 @@
+{
+    "description": "Combinado de caracteres conforme o preenchimento dos campos de fontes (FONTENTREV, FONTEAMBUL, FONTEPRONT, FONTESVO, FONTEIML, FONTEPROF): se preenchido caractere “S”, se o campo estiver vazio caractere “X”",
+    "S": "Campo preenchido",
+    "X": "Campo vazio"
+}
