@@ -1,0 +1,9 @@
+{
+    "description": "Faixas de semanas de gestação",
+    "1": "Menos de 22 semanas",
+    "2": "22 a 27 semanas",
+    "3": "28 a 31 semanas",
+    "4": "32 a 36 semanas",
+    "5": "37 a 41 semanas",
+    "6": "42 e + semanas"
+}

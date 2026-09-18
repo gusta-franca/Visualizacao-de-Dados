@@ -1,0 +1,9 @@
+{
+    "description": "Escolaridade em anos",
+    "1": "Nenhuma;",
+    "2": "de 1 a 3 anos;",
+    "3": "de 4 a 7 anos;",
+    "4": "de 8 a 11 anos",
+    "5": "12 anos e mais;",
+    "9": "Ignorado"
+}

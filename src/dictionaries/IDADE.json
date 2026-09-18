@@ -1,0 +1,58 @@
+{
+    "description": "Idade do falecido em minutos, horas, dias, meses ou anos",
+    "1": {
+        "description": "Unidade da idade",
+        "format": "3 characters",
+        "structure": "UQQ",
+        "U": {
+            "1": "Minuto",
+            "2": "Hora",
+            "3": "Mês",
+            "4": "Ano",
+            "5": "Idade maior que 100 anos",
+            "9": "Ignorado"
+        },
+        "QQ": "Quantidade de unidades, determinada conforme o valor de U.",
+        "rules": {
+            "1": {
+                "unit": "Minuto",
+                "range": "01-59"
+            },
+            "2": {
+                "unit": "Hora",
+                "range": "01-23"
+            },
+            "3": {
+                "unit": "Mês",
+                "range": "01-29"
+            },
+            "4": {
+                "unit": "Ano",
+                "range": "00-99"
+            },
+            "5": {
+                "unit": "Idade maior que 100 anos",
+                "range": "00-99"
+            },
+            "9": {
+                "description": "Ignorado",
+                "range": null
+            }
+        },
+        "validation": {
+            "required": true,
+            "conditional": [
+                {
+                    "when": {
+                        "field": "1",
+                        "equals": "1"
+                    },
+                    "then": {
+                        "mustBeEmpty": true
+                    }, "description": "Se 1 = 1 (óbito fetal) campo não deve ser preenchido."
+                }
+            ]
+        }
+
+    }
+}
