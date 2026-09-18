@@ -1,0 +1,6 @@
+{
+    "description": "Se refere ao atendimento médico continuado que o paciente recebeu, ou não, durante a enfermidade que ocasionou o óbito",
+    "1": "sim",
+    "2": "não",
+    "9": "ignorado"
+}

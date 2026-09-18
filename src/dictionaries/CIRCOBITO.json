@@ -1,0 +1,8 @@
+{
+    "description": "Tipo de morte violenta ou circunstâncias em que se deu a morte não natural",
+    "1": "acidente",
+    "2": "suicídio",
+    "3": "homicídio",
+    "4": "outros",
+    "9": "ignorado"
+}
