@@ -1,0 +1,9 @@
+{
+    "description": "Situação conjugal do falecido informada pelos familiares",
+    "1": "Solteiro",
+    "2": "Casado",
+    "3": "Viúvo",
+    "4": "Separado judicialmente/divorciado",
+    "5": "União estável",
+    "9": "Ignorado"
+}

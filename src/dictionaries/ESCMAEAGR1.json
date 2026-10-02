@@ -1,0 +1,16 @@
+{
+    "description": "Escolaridade da mãe agregada (ormulário a partir de 2010)",
+    "00": "Sem Escolaridade",
+    "01": "Fundamental I Incompleto",
+    "02": "Fundamental I Completo",
+    "03": "Fundamental II Incompleto",
+    "04": "Fundamental II Completo",
+    "05": "Ensino Médio Incompleto",
+    "06": "Ensino Médio Completo",
+    "07": "Superior Incompleto",
+    "08": "Superior Completo",
+    "09": "Ignorado",
+    "10": "Fundamental I Incompleto ou Inespecífico",
+    "11": "Fundamental II Incompleto ou Inespecífico",
+    "12": "Ensino Médio Incompleto ou Inespecífico"
+}

@@ -1,0 +1,7 @@
+{
+    "description": "Tipo de gravidez",
+    "1": "Única",
+    "2": "Dupla",
+    "3": "Tripla e mais",
+    "9": "Ignorada"
+}
