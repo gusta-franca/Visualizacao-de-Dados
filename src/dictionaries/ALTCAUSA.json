@@ -1,0 +1,5 @@
+{
+    "description": "Indica se houve correção ou alteração da causa do óbito após investigação",
+    "1": "Sim",
+    "2": "Não"
+}

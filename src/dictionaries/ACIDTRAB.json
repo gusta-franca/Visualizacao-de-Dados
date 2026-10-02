@@ -1,0 +1,6 @@
+{
+    "description": "Indica se o evento que desencadeou o óbito está relacionado ao processo de trabalho",
+    "1": "sim",
+    "2": "não",
+    "9": "ignorado"
+}
