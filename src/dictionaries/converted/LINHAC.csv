@@ -1,0 +1,33 @@
+﻿chave,valor
+description,"CIDs informados na Linha C da DO (Documento de Origem) referente ao diagnóstico na Linha C da DO (causa antecedente ou conseqüencial - estado mórbido, se existir, que produziu a causa"
+format,4 characters
+type,CID-10
+structure,LNNX | LNNN
+storageFormat.length,4
+storageFormat.prefix,*
+storageFormat.paddingCharacter,X
+characterRules.L,[A-Z]
+characterRules.N,[0-9]
+characterRules.X,Padding
+chapters.A00-B99,Algumas doenças infecciosas e parasitárias
+chapters.C00-D48,Neoplasias [tumores]
+chapters.D50-D89,Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários
+chapters.E00-E90,"Doenças endócrinas, nutricionais e metabólicas"
+chapters.F00-F99,Transtornos mentais e comportamentais
+chapters.G00-G99,Doenças do sistema nervoso
+chapters.H00-H59,Doenças do olho e anexos
+chapters.H60-H95,Doenças do ouvido e da apófise mastóide
+chapters.I00-I99,Doenças do aparelho circulatório
+chapters.J00-J99,Doenças do aparelho respiratório
+chapters.K00-K93,Doenças do aparelho digestivo
+chapters.L00-L99,Doenças da pele e do tecido subcutâneo
+chapters.M00-M99,Doenças do sistema osteomuscular e do tecido conjuntivo
+chapters.N00-N99,Doenças do aparelho geniturinário
+chapters.O00-O99,"Gravidez, parto e puerpério"
+chapters.P00-P96,Algumas afecções originadas no período perinatal
+chapters.Q00-Q99,"Malformações congênitas, deformidades e anomalias cromossômicas"
+chapters.R00-R99,"Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte"
+chapters.S00-T98,"Lesões, envenenamento e algumas outras conseqüências de causas externas"
+chapters.V01-Y98,Causas externas de morbidade e de mortalidade
+chapters.Z00-Z99,Fatores que influenciam o estado de saúde e o contato com os serviços de saúde
+chapters.U04-U99,Códigos reservados para propósitos especiais da OMS

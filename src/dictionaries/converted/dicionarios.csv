@@ -1,0 +1,398 @@
+﻿variavel,chave,valor
+DTNASC,description,Data do nascimento do falecido. Em caso de óbito fetal as datas de óbito e nascimento deverão ser iguais.
+DTOBITO,description,Data em que occoreu o óbito.
+DTRECEBIM,description,Data do recebimento
+DTRECORIGA,description,Campo Criado no Tratamento para Data do recebimento original
+ESC,description,Escolaridade em anos
+ESC,1,Nenhuma;
+ESC,2,de 1 a 3 anos;
+ESC,3,de 4 a 7 anos;
+ESC,4,de 8 a 11 anos
+ESC,5,12 anos e mais;
+ESC,9,Ignorado
+ESC2010,description,Escolaridade 2010. Nível da última série concluída pelo falecido
+ESC2010,0,Sem escolaridade
+ESC2010,1,Fundamental I (1a a 4a série)
+ESC2010,2,Fundamental II (5a a 8a série)
+ESC2010,3,Médio (antigo 2o Grau)
+ESC2010,4,Superior incompleto
+ESC2010,5,Superior completo
+ESC2010,9,Ignorado
+ESCFALAGR1,description,Escolaridade do falecido agregada (formulário a partir de 2010)
+ESCFALAGR1,00,Sem Escolaridade
+ESCFALAGR1,01,Fundamental I Incompleto
+ESCFALAGR1,02,Fundamental I Completo
+ESCFALAGR1,03,Fundamental II Incompleto
+ESCFALAGR1,04,Fundamental II Completo
+ESCFALAGR1,05,Ensino Médio Incompleto
+ESCFALAGR1,06,Ensino Médio Completo
+ESCFALAGR1,07,Superior Incompleto
+ESCFALAGR1,08,Superior Completo
+ESCFALAGR1,09,Ignorado
+ESCFALAGR1,10,Fundamental I Incompleto ou Inespecífico
+ESCFALAGR1,11,Fundamental II Incompleto ou Inespecífico
+ESCFALAGR1,12,Ensino Médio Incompleto ou Inespecífico
+ESCMAE,description,Escolaridade da mãe em anos
+ESCMAE,1,Nenhuma
+ESCMAE,2,de 1 a 3 anos
+ESCMAE,3,de 4 a 7 anos
+ESCMAE,4,de 8 a 11 anos
+ESCMAE,5,12 anos e mais
+ESCMAE,9,Ignorado
+ESCMAE2010,description,Escolaridade 2010. Nível da última série concluída pela mãe
+ESCMAE2010,0,Sem escolaridade
+ESCMAE2010,1,Fundamental I (1a a 4a série)
+ESCMAE2010,2,Fundamental II (5a a 8a série)
+ESCMAE2010,3,Médio (antigo 2o Grau)
+ESCMAE2010,4,Superior incompleto
+ESCMAE2010,5,Superior completo
+ESCMAE2010,9,Ignorado
+ESCMAEAGR1,description,Escolaridade da mãe agregada (ormulário a partir de 2010)
+ESCMAEAGR1,00,Sem Escolaridade
+ESCMAEAGR1,01,Fundamental I Incompleto
+ESCMAEAGR1,02,Fundamental I Completo
+ESCMAEAGR1,03,Fundamental II Incompleto
+ESCMAEAGR1,04,Fundamental II Completo
+ESCMAEAGR1,05,Ensino Médio Incompleto
+ESCMAEAGR1,06,Ensino Médio Completo
+ESCMAEAGR1,07,Superior Incompleto
+ESCMAEAGR1,08,Superior Completo
+ESCMAEAGR1,09,Ignorado
+ESCMAEAGR1,10,Fundamental I Incompleto ou Inespecífico
+ESCMAEAGR1,11,Fundamental II Incompleto ou Inespecífico
+ESCMAEAGR1,12,Ensino Médio Incompleto ou Inespecífico
+ESTCIV,description,Situação conjugal do falecido informada pelos familiares
+ESTCIV,1,Solteiro
+ESTCIV,2,Casado
+ESTCIV,3,Viúvo
+ESTCIV,4,Separado judicialmente/divorciado
+ESTCIV,5,União estável
+ESTCIV,9,Ignorado
+EXAME,description,Realização de exame
+EXAME,1,Sim
+EXAME,2,Não
+EXAME,9,Ignorado
+FONTE,description,Fonte de informação utilizada para o preenchimento dos campos 48 e 49
+FONTE,1,Ocorrência policial
+FONTE,2,Hospital
+FONTE,3,Família
+FONTE,4,Outra
+FONTE,9,Ignorado
+FONTEINV,description,Fonte de investigação
+FONTEINV,1,Comitê de Morte Materna e/ou Infantil
+FONTEINV,2,Visita domiciliar / Entrevista família
+FONTEINV,3,Estabelecimento de Saúde / Prontuário
+FONTEINV,4,Relacionado com outros bancos de dados
+FONTEINV,5,Serviço de Verificação de Óbito (SVO)
+FONTEINV,6,Instituto Médico Legal (IML)
+FONTEINV,7,Outra fonte
+FONTEINV,8,Múltiplas fontes
+FONTEINV,9,Ignorado
+FONTES,description,"Combinado de caracteres conforme o preenchimento dos campos de fontes (FONTENTREV, FONTEAMBUL, FONTEPRONT, FONTESVO, FONTEIML, FONTEPROF): se preenchido caractere “S”, se o campo estiver vazio caractere “X”"
+FONTES,S,Campo preenchido
+FONTES,X,Campo vazio
+GESTACAO,description,Faixas de semanas de gestação
+GESTACAO,1,Menos de 22 semanas
+GESTACAO,2,22 a 27 semanas
+GESTACAO,3,28 a 31 semanas
+GESTACAO,4,32 a 36 semanas
+GESTACAO,5,37 a 41 semanas
+GESTACAO,6,42 e + semanas
+GRAVIDEZ,description,Tipo de gravidez
+GRAVIDEZ,1,Única
+GRAVIDEZ,2,Dupla
+GRAVIDEZ,3,Tripla e mais
+GRAVIDEZ,9,Ignorada
+HORAOBITO,description,Horário do óbito
+IDADE,description,"Idade do falecido em minutos, horas, dias, meses ou anos"
+IDADE,1.description,Unidade da idade
+IDADE,1.format,3 characters
+IDADE,1.structure,UQQ
+IDADE,1.U.1,Minuto
+IDADE,1.U.2,Hora
+IDADE,1.U.3,Mês
+IDADE,1.U.4,Ano
+IDADE,1.U.5,Idade maior que 100 anos
+IDADE,1.U.9,Ignorado
+IDADE,1.QQ,"Quantidade de unidades, determinada conforme o valor de U."
+IDADE,1.rules.1.unit,Minuto
+IDADE,1.rules.1.range,01-59
+IDADE,1.rules.2.unit,Hora
+IDADE,1.rules.2.range,01-23
+IDADE,1.rules.3.unit,Mês
+IDADE,1.rules.3.range,01-29
+IDADE,1.rules.4.unit,Ano
+IDADE,1.rules.4.range,00-99
+IDADE,1.rules.5.unit,Idade maior que 100 anos
+IDADE,1.rules.5.range,00-99
+IDADE,1.rules.9.description,Ignorado
+IDADE,1.rules.9.range,None
+IDADE,1.validation.required,True
+IDADE,1.validation.conditional,"[{'when': {'field': '1', 'equals': '1'}, 'then': {'mustBeEmpty': True}, 'description': 'Se 1 = 1 (óbito fetal) campo não deve ser preenchido.'}]"
+LINHAA,description,CIDs informados na Linha A da DO (Documento de Origem) referente ao diagnóstico na Linha A da DO (causa terminal - doença ou estado mórbido que causou diretamente a morte)
+LINHAA,format,4 characters
+LINHAA,type,CID-10
+LINHAA,structure,LNNX | LNNN
+LINHAA,storageFormat.length,4
+LINHAA,storageFormat.prefix,*
+LINHAA,storageFormat.paddingCharacter,X
+LINHAA,characterRules.L,[A-Z]
+LINHAA,characterRules.N,[0-9]
+LINHAA,characterRules.X,Padding
+LINHAA,chapters.A00-B99,Algumas doenças infecciosas e parasitárias
+LINHAA,chapters.C00-D48,Neoplasias [tumores]
+LINHAA,chapters.D50-D89,Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários
+LINHAA,chapters.E00-E90,"Doenças endócrinas, nutricionais e metabólicas"
+LINHAA,chapters.F00-F99,Transtornos mentais e comportamentais
+LINHAA,chapters.G00-G99,Doenças do sistema nervoso
+LINHAA,chapters.H00-H59,Doenças do olho e anexos
+LINHAA,chapters.H60-H95,Doenças do ouvido e da apófise mastóide
+LINHAA,chapters.I00-I99,Doenças do aparelho circulatório
+LINHAA,chapters.J00-J99,Doenças do aparelho respiratório
+LINHAA,chapters.K00-K93,Doenças do aparelho digestivo
+LINHAA,chapters.L00-L99,Doenças da pele e do tecido subcutâneo
+LINHAA,chapters.M00-M99,Doenças do sistema osteomuscular e do tecido conjuntivo
+LINHAA,chapters.N00-N99,Doenças do aparelho geniturinário
+LINHAA,chapters.O00-O99,"Gravidez, parto e puerpério"
+LINHAA,chapters.P00-P96,Algumas afecções originadas no período perinatal
+LINHAA,chapters.Q00-Q99,"Malformações congênitas, deformidades e anomalias cromossômicas"
+LINHAA,chapters.R00-R99,"Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte"
+LINHAA,chapters.S00-T98,"Lesões, envenenamento e algumas outras conseqüências de causas externas"
+LINHAA,chapters.V01-Y98,Causas externas de morbidade e de mortalidade
+LINHAA,chapters.Z00-Z99,Fatores que influenciam o estado de saúde e o contato com os serviços de saúde
+LINHAA,chapters.U04-U99,Códigos reservados para propósitos especiais da OMS
+LINHAB,description,"CIDs informados na Linha B da DO (Documento de Origem) referente ao diagnóstico na Linha B da DO (causa antecedente ou conseqüencial - estado mórbido, se existir, que produziu a causa direta da morte registrada na linha A)"
+LINHAB,format,4 characters
+LINHAB,type,CID-10
+LINHAB,structure,LNNX | LNNN
+LINHAB,storageFormat.length,4
+LINHAB,storageFormat.prefix,*
+LINHAB,storageFormat.paddingCharacter,X
+LINHAB,characterRules.L,[A-Z]
+LINHAB,characterRules.N,[0-9]
+LINHAB,characterRules.X,Padding
+LINHAB,chapters.A00-B99,Algumas doenças infecciosas e parasitárias
+LINHAB,chapters.C00-D48,Neoplasias [tumores]
+LINHAB,chapters.D50-D89,Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários
+LINHAB,chapters.E00-E90,"Doenças endócrinas, nutricionais e metabólicas"
+LINHAB,chapters.F00-F99,Transtornos mentais e comportamentais
+LINHAB,chapters.G00-G99,Doenças do sistema nervoso
+LINHAB,chapters.H00-H59,Doenças do olho e anexos
+LINHAB,chapters.H60-H95,Doenças do ouvido e da apófise mastóide
+LINHAB,chapters.I00-I99,Doenças do aparelho circulatório
+LINHAB,chapters.J00-J99,Doenças do aparelho respiratório
+LINHAB,chapters.K00-K93,Doenças do aparelho digestivo
+LINHAB,chapters.L00-L99,Doenças da pele e do tecido subcutâneo
+LINHAB,chapters.M00-M99,Doenças do sistema osteomuscular e do tecido conjuntivo
+LINHAB,chapters.N00-N99,Doenças do aparelho geniturinário
+LINHAB,chapters.O00-O99,"Gravidez, parto e puerpério"
+LINHAB,chapters.P00-P96,Algumas afecções originadas no período perinatal
+LINHAB,chapters.Q00-Q99,"Malformações congênitas, deformidades e anomalias cromossômicas"
+LINHAB,chapters.R00-R99,"Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte"
+LINHAB,chapters.S00-T98,"Lesões, envenenamento e algumas outras conseqüências de causas externas"
+LINHAB,chapters.V01-Y98,Causas externas de morbidade e de mortalidade
+LINHAB,chapters.Z00-Z99,Fatores que influenciam o estado de saúde e o contato com os serviços de saúde
+LINHAB,chapters.U04-U99,Códigos reservados para propósitos especiais da OMS
+LINHAC,description,"CIDs informados na Linha C da DO (Documento de Origem) referente ao diagnóstico na Linha C da DO (causa antecedente ou conseqüencial - estado mórbido, se existir, que produziu a causa"
+LINHAC,format,4 characters
+LINHAC,type,CID-10
+LINHAC,structure,LNNX | LNNN
+LINHAC,storageFormat.length,4
+LINHAC,storageFormat.prefix,*
+LINHAC,storageFormat.paddingCharacter,X
+LINHAC,characterRules.L,[A-Z]
+LINHAC,characterRules.N,[0-9]
+LINHAC,characterRules.X,Padding
+LINHAC,chapters.A00-B99,Algumas doenças infecciosas e parasitárias
+LINHAC,chapters.C00-D48,Neoplasias [tumores]
+LINHAC,chapters.D50-D89,Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários
+LINHAC,chapters.E00-E90,"Doenças endócrinas, nutricionais e metabólicas"
+LINHAC,chapters.F00-F99,Transtornos mentais e comportamentais
+LINHAC,chapters.G00-G99,Doenças do sistema nervoso
+LINHAC,chapters.H00-H59,Doenças do olho e anexos
+LINHAC,chapters.H60-H95,Doenças do ouvido e da apófise mastóide
+LINHAC,chapters.I00-I99,Doenças do aparelho circulatório
+LINHAC,chapters.J00-J99,Doenças do aparelho respiratório
+LINHAC,chapters.K00-K93,Doenças do aparelho digestivo
+LINHAC,chapters.L00-L99,Doenças da pele e do tecido subcutâneo
+LINHAC,chapters.M00-M99,Doenças do sistema osteomuscular e do tecido conjuntivo
+LINHAC,chapters.N00-N99,Doenças do aparelho geniturinário
+LINHAC,chapters.O00-O99,"Gravidez, parto e puerpério"
+LINHAC,chapters.P00-P96,Algumas afecções originadas no período perinatal
+LINHAC,chapters.Q00-Q99,"Malformações congênitas, deformidades e anomalias cromossômicas"
+LINHAC,chapters.R00-R99,"Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte"
+LINHAC,chapters.S00-T98,"Lesões, envenenamento e algumas outras conseqüências de causas externas"
+LINHAC,chapters.V01-Y98,Causas externas de morbidade e de mortalidade
+LINHAC,chapters.Z00-Z99,Fatores que influenciam o estado de saúde e o contato com os serviços de saúde
+LINHAC,chapters.U04-U99,Códigos reservados para propósitos especiais da OMS
+LINHAD,description,"CIDs informados na Linha D da DO (Documento de Origem) referente ao diagnóstico na Linha D da DO (causa básica – estado mórbido, se existir, que produziu a causa direta da morte registrada na linha A)"
+LINHAD,format,4 characters
+LINHAD,type,CID-10
+LINHAD,structure,LNNX | LNNN
+LINHAD,storageFormat.length,4
+LINHAD,storageFormat.prefix,*
+LINHAD,storageFormat.paddingCharacter,X
+LINHAD,characterRules.L,[A-Z]
+LINHAD,characterRules.N,[0-9]
+LINHAD,characterRules.X,Padding
+LINHAD,chapters.A00-B99,Algumas doenças infecciosas e parasitárias
+LINHAD,chapters.C00-D48,Neoplasias [tumores]
+LINHAD,chapters.D50-D89,Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários
+LINHAD,chapters.E00-E90,"Doenças endócrinas, nutricionais e metabólicas"
+LINHAD,chapters.F00-F99,Transtornos mentais e comportamentais
+LINHAD,chapters.G00-G99,Doenças do sistema nervoso
+LINHAD,chapters.H00-H59,Doenças do olho e anexos
+LINHAD,chapters.H60-H95,Doenças do ouvido e da apófise mastóide
+LINHAD,chapters.I00-I99,Doenças do aparelho circulatório
+LINHAD,chapters.J00-J99,Doenças do aparelho respiratório
+LINHAD,chapters.K00-K93,Doenças do aparelho digestivo
+LINHAD,chapters.L00-L99,Doenças da pele e do tecido subcutâneo
+LINHAD,chapters.M00-M99,Doenças do sistema osteomuscular e do tecido conjuntivo
+LINHAD,chapters.N00-N99,Doenças do aparelho geniturinário
+LINHAD,chapters.O00-O99,"Gravidez, parto e puerpério"
+LINHAD,chapters.P00-P96,Algumas afecções originadas no período perinatal
+LINHAD,chapters.Q00-Q99,"Malformações congênitas, deformidades e anomalias cromossômicas"
+LINHAD,chapters.R00-R99,"Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte"
+LINHAD,chapters.S00-T98,"Lesões, envenenamento e algumas outras conseqüências de causas externas"
+LINHAD,chapters.V01-Y98,Causas externas de morbidade e de mortalidade
+LINHAD,chapters.Z00-Z99,Fatores que influenciam o estado de saúde e o contato com os serviços de saúde
+LINHAD,chapters.U04-U99,Códigos reservados para propósitos especiais da OMS
+LINHAII,description,CIDs informados na Parte II da DO (Documento de Origem)
+LINHAII,format,4 characters
+LINHAII,type,CID-10
+LINHAII,structure,LNNX | LNNN
+LINHAII,storageFormat.length,4
+LINHAII,storageFormat.prefix,*
+LINHAII,storageFormat.paddingCharacter,X
+LINHAII,characterRules.L,[A-Z]
+LINHAII,characterRules.N,[0-9]
+LINHAII,characterRules.X,Padding
+LINHAII,chapters.A00-B99,Algumas doenças infecciosas e parasitárias
+LINHAII,chapters.C00-D48,Neoplasias [tumores]
+LINHAII,chapters.D50-D89,Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários
+LINHAII,chapters.E00-E90,"Doenças endócrinas, nutricionais e metabólicas"
+LINHAII,chapters.F00-F99,Transtornos mentais e comportamentais
+LINHAII,chapters.G00-G99,Doenças do sistema nervoso
+LINHAII,chapters.H00-H59,Doenças do olho e anexos
+LINHAII,chapters.H60-H95,Doenças do ouvido e da apófise mastóide
+LINHAII,chapters.I00-I99,Doenças do aparelho circulatório
+LINHAII,chapters.J00-J99,Doenças do aparelho respiratório
+LINHAII,chapters.K00-K93,Doenças do aparelho digestivo
+LINHAII,chapters.L00-L99,Doenças da pele e do tecido subcutâneo
+LINHAII,chapters.M00-M99,Doenças do sistema osteomuscular e do tecido conjuntivo
+LINHAII,chapters.N00-N99,Doenças do aparelho geniturinário
+LINHAII,chapters.O00-O99,"Gravidez, parto e puerpério"
+LINHAII,chapters.P00-P96,Algumas afecções originadas no período perinatal
+LINHAII,chapters.Q00-Q99,"Malformações congênitas, deformidades e anomalias cromossômicas"
+LINHAII,chapters.R00-R99,"Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte"
+LINHAII,chapters.S00-T98,"Lesões, envenenamento e algumas outras conseqüências de causas externas"
+LINHAII,chapters.V01-Y98,Causas externas de morbidade e de mortalidade
+LINHAII,chapters.Z00-Z99,Fatores que influenciam o estado de saúde e o contato com os serviços de saúde
+LINHAII,chapters.U04-U99,Códigos reservados para propósitos especiais da OMS
+LOCOCOR,description,Local de ocorrência do óbito
+LOCOCOR,1,Hospital
+LOCOCOR,2,Outros estabelecimentos de saúde
+LOCOCOR,3,Domícilio
+LOCOCOR,4,Via pública
+LOCOCOR,5,Outros
+LOCOCOR,6,Aldeia indígena
+LOCOCOR,9,Ignorado
+MORTEPARTO,description,Momento do óbito em relação ao parto após investigação
+MORTEPARTO,1,Antes
+MORTEPARTO,2,Durante
+MORTEPARTO,3,Após
+MORTEPARTO,9,Ignorado
+NATURAL,description,Município e Unidade da Federação onde o falecido nasceu. Se estrangeiro informar País
+NECROPSIA,description,Refere-se a execução ou não de necropsia para confirmação do diagnóstico
+NECROPSIA,1,Sim
+NECROPSIA,2,Não
+NECROPSIA,9,Ignorado
+OBITOGRAV,description,Óbito na gravidez
+OBITOGRAV,1,Sim
+OBITOGRAV,2,Não
+OBITOGRAV,9,Ignorado
+OBITOPARTO,description,Momento do óbito em relação ao parto
+OBITOPARTO,1,Antes
+OBITOPARTO,2,Depois
+OBITOPARTO,3,Depois
+OBITOPARTO,9,Ignorado
+OBITOPUERP,description,Óbito no puerpério
+OBITOPUERP,1,"Sim, até 42 dias após o parto"
+OBITOPUERP,2,"Sim, de 43 dias a 1 ano"
+OBITOPUERP,3,Não
+OBITOPUERP,9,Ignorado
+ORIGEM,description,
+ORIGEM,1,Oracle
+ORIGEM,2,Banco estadual diponibilizado via FTP
+ORIGEM,3,Banco SEADE
+ORIGEM,9,Ignorado
+PARTO,description,Tipo de parto
+PARTO,1,Vaginal
+PARTO,2,Cesáreo
+PARTO,9,Ignorado
+QTDFILMORT,description,Número de filhos mortos. Não incluir a criança cujo óbito se notifica na respectiva DO
+QTDFILMORT,9,Ignorado
+QTDFILVIVO,description,Número de filhos vivos
+QTDFILVIVO,9,Ignorado
+RACACOR,description,Cor informada pelo responsável pelas informações do falecido
+RACACOR,1,Branca
+RACACOR,2,Preta
+RACACOR,3,Amarela
+RACACOR,4,Parda
+RACACOR,5,Indígena
+SEMGESTAC,description,Semanas de gestação com dois algarismos
+SEMGESTAC,9,Ignorado
+SEXO,description,"Sexo do falecido. “Ignorado” selecionada em casos especiais como cadáveres mutilados, em estado avançado de decomposição, genitália indefinida ou hermafroditismo"
+SEXO,1,Masculino
+SEXO,M,Masculino
+SEXO,2,Feminino
+SEXO,F,Feminino
+SEXO,9,Ignorado
+SEXO,0,Ignorado
+SEXO,I,Ignorado
+STCODIFICA,description,Status de instalação
+STCODIFICA,S,Sim
+STCODIFICA,N,Não
+STDOEPIDEM,description,Status de DO Epidemiológica
+STDOEPIDEM,1,Sim
+STDOEPIDEM,0,Não
+STDONOVA,description,Status de DO Nova
+STDONOVA,1,Sim
+STDONOVA,0,Não
+TIPOBITO,description,"Tipo do óbito Óbito fetal: morte antes da expulsão ou da extração completa do corpo da Mãe, independentemente da duração da gravidez. Indica o óbito o fato de o feto, depois da expulsão do corpo materno, não respirar nem apresentar nenhum outro sinal de vida, como batimentos do coração, pulsações do cordão umbilical ou movimentos efetivos dos músculos de contração voluntária"
+TIPOBITO,1,Fetal
+TIPOBITO,2,Não Fetal
+TPMORTEOCO,description,Situação gestacional ou pósgestacional em que ocorreu o óbito
+TPMORTEOCO,1,na gravidez
+TPMORTEOCO,2,no parto
+TPMORTEOCO,3,no abortamento
+TPMORTEOCO,4,até 42 dias após o término do parto
+TPMORTEOCO,5,de 43 dias a 1 no após o término da gestação
+TPMORTEOCO,8,não ocorreu nestes períodos
+TPMORTEOCO,9,Ignorado
+TPNIVELINV,description,Tipo de nível investigador
+TPNIVELINV,E,Estadual
+TPNIVELINV,R,Regional
+TPNIVELINV,M,Municipal
+TPOBITOCOR,description,
+TPOBITOCOR,1,Durante a gestação
+TPOBITOCOR,2,Durante o abortamento
+TPOBITOCOR,3,Após o abortamento
+TPOBITOCOR,4,No parto ou até 1 hora após o parto
+TPOBITOCOR,5,No puerpério - até 42 dias após o parto
+TPOBITOCOR,6,Entre 43 dias e até 1 ano após o parto
+TPOBITOCOR,7,A investigação não identificou o momento do óbito
+TPOBITOCOR,8,Mais de um ano após o parto
+TPOBITOCOR,9,O óbito não ocorreu nas circunstâncias anteriores
+TPOBITOCOR,,Não investigado
+TPPOS,description,Óbito investigado
+TPPOS,1,Sim
+TPPOS,2,Não
+TPRESGINFO,description,"Informa se a investigação permitiu o resgate de alguma causa de óbito não informado, ou a correção de alguma antes informada"
+TPRESGINFO,01,Não acrescentou nem corrigiu informação
+TPRESGINFO,02,"Sim, permitiu o resgate de novas informações"
+TPRESGINFO,03,"Sim, permitiu a correção de alguma das causas informadas originalmente"
+__TEMPLATE,description,
+__TEMPLATE,1,
+__TEMPLATE,2,
+__TEMPLATE,9,

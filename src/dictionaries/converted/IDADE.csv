@@ -1,0 +1,26 @@
+﻿chave,valor
+description,"Idade do falecido em minutos, horas, dias, meses ou anos"
+1.description,Unidade da idade
+1.format,3 characters
+1.structure,UQQ
+1.U.1,Minuto
+1.U.2,Hora
+1.U.3,Mês
+1.U.4,Ano
+1.U.5,Idade maior que 100 anos
+1.U.9,Ignorado
+1.QQ,"Quantidade de unidades, determinada conforme o valor de U."
+1.rules.1.unit,Minuto
+1.rules.1.range,01-59
+1.rules.2.unit,Hora
+1.rules.2.range,01-23
+1.rules.3.unit,Mês
+1.rules.3.range,01-29
+1.rules.4.unit,Ano
+1.rules.4.range,00-99
+1.rules.5.unit,Idade maior que 100 anos
+1.rules.5.range,00-99
+1.rules.9.description,Ignorado
+1.rules.9.range,None
+1.validation.required,True
+1.validation.conditional,"[{'when': {'field': '1', 'equals': '1'}, 'then': {'mustBeEmpty': True}, 'description': 'Se 1 = 1 (óbito fetal) campo não deve ser preenchido.'}]"
